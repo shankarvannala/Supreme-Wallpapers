@@ -3,7 +3,7 @@ Supreme wallpapers dashboard.
 
 # Showcase
 <img alt="supreme_screens"
-       src="https://www.dropbox.com/s/ae2e9pcyppiq3x9/PicsArt_02-28-10.19.57.png?dl=1"/>
+       src="https://www.dropbox.com/s/ae2e9pcyppiq3x9/PicsArt_02-28-10.19.57.png?dl=1" height="1500"/>
        
        
 For all the graphics designers there,  to showcase your work and to get in touch with millions of users through app.
