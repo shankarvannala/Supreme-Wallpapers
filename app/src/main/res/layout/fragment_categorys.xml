@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/HomeContent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbars="none"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/ll"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_margin="@dimen/cards_margin"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Card One"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/descriptionTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="150 wallpapers"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cardDivider"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:clickable="true"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/ivtwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvtwo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Card Two"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvtwoo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="150 wallpapers"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cdtwo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvthree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/ivthree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvthree"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Main Title"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvthreee"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="sub_title for cards"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cdthree"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvfour"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/ivfour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvfour"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Main Title"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvfourr"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="sub_title for cards"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cdfour"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvfive"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/ivfive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvfive"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Main Title"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvfivee"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="sub_title for cards"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cdfive"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvsix"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/ivsix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvsix"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Main Title"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvsixx"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="sub_title for cards"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cdsix"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvseven"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/ivseven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvseven"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Main Title"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvsevenn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="sub_title for cards"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cdseven"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cveight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/iveight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tveight"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Main Title"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tveightt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="sub_title for cards"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cdeight"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cvnine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/cards_elevation">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/cards_margin"
+                android:paddingRight="@dimen/cards_margin"
+                tools:ignore="RtlSymmetry">
+
+                <ImageView
+                    android:id="@+id/ivnine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:minWidth="100dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tab_wallpapers" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnine"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="16dp"
+                        android:text="Main Title"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tvninee"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingMultiplier="1.2"
+                        android:paddingBottom="@dimen/cards_padding"
+                        android:paddingLeft="@dimen/cards_padding"
+                        android:paddingRight="@dimen/cards_padding"
+                        android:text="sub_title for cards"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:id="@+id/cdnine"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:background="?dividerHorizontal"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="?dividerHorizontal"
+            android:visibility="invisible" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

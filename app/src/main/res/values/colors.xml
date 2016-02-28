@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_semi_transparent">#Cc000000</color>
+    <color name="viewer_overlay">#40000000</color>
+    <color name="transparent">#00ffffff</color>
+    <!-- Color for Backgrounds -->
+    <color name="light_bg">#fafafa</color>
+    <!-- Color for texts -->
+    <color name="dark_grey">#4d4d4d</color>
+    <color name="white">#FFFFFF</color>
+    <color name="semitransparent_white">#80ffffff</color>
+    <color name="dialogcontent">#6d6d6d</color>
+    <!-- for circleimageview -->
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+
+</resources>

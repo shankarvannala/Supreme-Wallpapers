@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Supreme</string>
+    <string name="app_long_name">Supreme Wallpapers</string>
+    <string name="nw">New Wallpapers</string>
+    <string name="categories">Categories</string>
+    <string name="about">About</string>
+    <string name="reload_from_web">Refresh</string>
+    <string name="search_wallpapers">Search walls</string>
+    <string name="email_id">sjdev53@gmail.com</string>
+    <string name="package_name">"sjdev.walls.dash"</string>
+
+    <!-- Muzei Stuff -->
+    <string name="artsource_name">"Supreme"</string>
+    <string name="artsource_desc">"Wallpapers are collected from net"</string>
+    <string name="muzei_settings">Muzei Settings</string>
+
+    <string name="json_file_url">"https://raw.githubusercontent.com/shankarvannala/sjwalls/master/bokeh01/mu/supreme.json"</string>
+
+    <!-- Sharing wallpaper from Muzei -->
+    <string name="partone">"My wallpaper for today is "</string>
+    <string name="parttwo">" by "</string>
+    <string name="partthree">" from "</string>
+    <string name="partfour">".\nGet it now at "</string>
+
+    <string name="copryt">Copyright© 2015en dash2016. All rights reserved.</string>
+    <!-- Strings for Wallpapers and Requests -->
+    <string name="request_save_location">"/Supreme/Requests/"</string>
+    <string name="walls_save_location">"/Supreme/"</string>
+    <string name="walls_prefix_name">"supreme_"</string>
+
+    <!-- Texts you don't want to get when user downloads that wallpapers -->
+    <!-- Examples: the url of the wall, and prefixes, etc. -->
+    <!-- It replaces the texts in the order as shown. I.e. url is
+    https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/Lines/Circles/Text/text/whatever/WallpaperName.png"
+     it will delete texts in this order:
+     1. https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/
+     2. Lines
+     3. Circles
+     4. Text
+     5. text
+     6. whatever
+     7. (Empty text won't replace anything else).
+     And at the end the only text that will stay is "WallpaperName.png" which will be the final name of downloaded file.
+     -->
+    <string name="replace_one">"https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/"</string>
+    <string name="replace_two">"Lines"</string>
+    <string name="replace_three">"Circles"</string>
+    <string name="replace_four">"Text"</string>
+    <string name="replace_five">"text"</string>
+    <string name="replace_six">"whatever"</string>
+    <string name="replace_seven">""</string>
+
+    <!-- Wallpapers Activity -->
+    <string name="title_activity_detailed_wallpaper">Detailed Wallpaper</string>
+    <string name="title_ab_detailed_wallpaper" />
+
+    <!-- Muzei Stuff -->
+    <string name="muzeisets_title">Refresh Source every:</string>
+    <string name="minutes">Minutes</string>
+    <string name="hours">Hours</string>
+    <string name="muzei_info">Note: This Settings may affect the update time of the Wallpapers info.</string>
+    <string name="justshare">Share</string>
+
+    <!-- Strings -->
+    <string name="save">save</string>
+    <string name="share">Share App</string>
+    <string name="share_title">Share via</string>
+    <string name="send_title">Send via</string>
+    <string name="rate">Rate theme</string>
+    <string name="sendemail">Mail Me</string>
+    <string name="changelog">Changelog</string>
+
+    <!-- Wallpapers Stuff -->
+    <string name="no_conn_title">No Connection Found</string>
+    <string name="no_conn_content">Wallpapers are stored on Cloud Server. Please connect to Internet and try again.</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="download_done">Download completed successfully Picture is located at </string>
+    <string name="apply">Apply</string>
+    <string name="set_as">Crop picture and set as…</string>
+    <string name="set_wall_title">Wallpaper set</string>
+    <string name="set_wall_content">Please, choose an option. Would you like to crop the picture? Or do you prefer to set it in its actual size?</string>
+    <string name="crop_wall">Crop Wall</string>
+    <string name="set_it">Set it now!</string>
+    <string name="close">Close</string>
+    <string name="done">Done!</string>
+    <string name="progress_dialog_title">Downloading wallpaper</string>
+    <string name="setting_wall_title">Setting pic as wallpaper</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="set_as_wall_done">Picture set as wallpaper successfully Go to Home screen and check it.</string>
+    <string name="error">Error</string>
+    <string name="wall_error">Sorry, previous action wasn\'t actually applied, because it seems there\'s no picture. Check your Internet connection and try again.</string>
+    <string name="json_error_toast">Error while downloading wallpapers info. Try again later.</string>
+
+</resources>

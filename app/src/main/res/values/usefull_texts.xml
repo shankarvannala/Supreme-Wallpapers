@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="your_text">This is definitely a placeholder\n This is where your details go</string>
+    <string name="your_gpluslink"></string>
+    <!-- Image links -->
+    <string name="circleiv_link">https://github.com/hdodenhof/CircleImageView</string>
+    <string name="aidan_link">
+        https://github.com/afollestad
+    </string>
+<string name="mike_link">
+    https://github.com/mikepenz
+</string>
+    <string name="jahir_link">
+        https://github.com/jahirfiquitiva
+    </string>
+    <string name="square_link">
+https://github.com/square
+    </string>
+
+    <!-- texts-->
+    <string name="sjgplus_link">"https://plus.google.com/115059898284447995043"</string>
+<string name="sj_text">I made this dashboard with help of google and other sources mentioned below</string>
+    <string name="anilgplus_link">"https://plus.google.com/+AnilKumar-AKINHD"</string>
+<string name="anil_text">He is Graphic designer and helped with icons and wallpapers. He made it possible and idea came from him and inspiration from Polar dashboard.</string>
+    <string name="ravi_tamada">Made a simple guide for making Tabs UI design</string>
+
+<string name="aidan_texts" formatted="false">
+    <![CDATA[Polar Dashboard some sources]]>\n
+    <![CDATA[Material Dialogs]]>\n
+    <![CDATA[Assent]]>\n
+     <![CDATA[click card to view more]]>
+</string>
+
+    <string name="jf_texts" formatted="false">
+    <![CDATA[Paperboard walls source]]>\n
+        <![CDATA[click card to view more]]>
+</string>
+
+    <string name="mike_texts" formatted="false">
+    <![CDATA[Android Iconics]]>\n
+    <![CDATA[click card to view more]]>
+</string>
+
+    <string name="square_texts" formatted="false">
+    <![CDATA[Picasso]]>\n
+    <![CDATA[OkHttp]]>\n
+    <![CDATA[click card to view more]]>
+</string>
+
+</resources>

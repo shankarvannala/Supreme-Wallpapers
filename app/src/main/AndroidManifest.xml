@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="sjdev.walls.dash">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme"
+        tools:ignore="GoogleAppIndexingWarning,RtlEnabled,UnusedAttribute">
+
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.INFO" />
+            </intent-filter>
+
+            <!-- Makes the app available in the launcher's wallpaper chooser -->
+            <intent-filter>
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NoNet">
+
+        </activity>
+
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".activities.CardTwo">
+
+        </activity>
+        <activity android:name=".activities.CardOne">
+</activity>
+
+        <!-- Wallpapers Activity -->
+        <activity
+            android:name="sjdev.walls.dash.wallfilez.DetailedWallpaperActivity"
+            android:label="@string/title_activity_detailed_wallpaper"
+            android:theme="@style/AppTheme.Viewer">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="sjdev.walls.dash.wallfilez.DetailedWallpaperActivity" />
+        </activity>
+        <service
+            android:name="sjdev.walls.dash.wallfilez.ArtSource"
+            android:description="@string/artsource_desc"
+            android:icon="@mipmap/ic_muzei_logo"
+            android:label="@string/artsource_name">
+            <intent-filter>
+                <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource" />
+            </intent-filter>
+            <meta-data
+                android:name="color"
+                android:value="@color/colorPrimary" />
+            <meta-data
+                android:name="settingsActivity"
+                android:value="sjdev.walls.dash.wallfilez.Settings" />
+        </service>
+
+        <activity
+            android:name="sjdev.walls.dash.wallfilez.Settings"
+            android:exported="true"
+            android:label="@string/muzei_settings"
+            android:theme="@style/MyMaterialTheme"
+            android:windowSoftInputMode="stateHidden" />
+
+    </application>
+
+</manifest>
