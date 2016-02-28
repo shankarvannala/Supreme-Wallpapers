@@ -21,7 +21,7 @@ Thanks
 - [Jahir Fiquitiva](http://www.jahirfiquitiva.net/)
 - [Aidan Follestad](http://www.aidanfollestad.com/)
 - [Mike Penz](http://portfolio.mikepenz.com/)
-- [Ravi Tamada](http://www.androidhive.info/)
+- [Ravi Tamada(Tabs guide)](http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/)
 
 # License
 
