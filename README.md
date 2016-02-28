@@ -1,9 +1,9 @@
 # Supreme
 Supreme wallpapers dashboard.
 
-! [Showcase]
-<img alt="supreme1"
-       src="https://www.dropbox.com/s/5l0jgtxhzar0aih/PicsArt_02-28-09.53.53.jpg?dl=1"/>
+# Showcase
+<img alt="supreme_screens"
+       src="https://www.dropbox.com/s/ae2e9pcyppiq3x9/PicsArt_02-28-10.19.57.png?dl=1"/>
        
        
 For all the graphics designers there,  to showcase your work and to get in touch with millions of users through app.
