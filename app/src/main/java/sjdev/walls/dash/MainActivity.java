@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private int[] tabIcons = {
             R.drawable.tab_home,
             R.mipmap.new_walls,
-            R.mipmap.categories,
+            R.drawable.tab_cat,
             R.mipmap.about
     };
 

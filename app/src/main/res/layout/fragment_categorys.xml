@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<com.pluscubed.insetsdispatcher.view.InsetsDispatcherLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+
 <android.support.v4.widget.NestedScrollView
     android:id="@+id/HomeContent"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -605,3 +616,5 @@
             android:visibility="invisible" />
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
+
+    </com.pluscubed.insetsdispatcher.view.InsetsDispatcherLinearLayout>

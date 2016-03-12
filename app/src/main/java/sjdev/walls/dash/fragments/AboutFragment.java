@@ -34,6 +34,11 @@ public class AboutFragment extends Fragment {
                 .load("https://lh3.googleusercontent.com/-0mdcClKXlgM/AAAAAAAAAAI/AAAAAAAAAAA/xgdLWeAg7pM/s120-c/photo.jpg")
                 .into(yiv);
 
+        ImageView pluscubed=(ImageView) rv.findViewById(R.id.pluscubed_iv);
+        Picasso.with(getActivity())
+                .load("https://lh3.googleusercontent.com/-uRfg9FW83s4/AAAAAAAAAAI/AAAAAAAAKts/0FaBag1wvds/s120-c/photo.jpg")
+                .into(pluscubed);
+
         ImageView aidaniv=(ImageView) rv.findViewById(R.id.aidan_imageview);
         Picasso.with(getActivity())
                 .load("https://lh3.googleusercontent.com/-mMe9cCCcm3Q/AAAAAAAAAAI/AAAAAAAAh2g/900TLdhn7dA/s120-c/photo.jpg")
@@ -50,6 +55,14 @@ public class AboutFragment extends Fragment {
                 .into(civ);
 
         // card clicks//
+        CardView daniel=(CardView)rv.findViewById(R.id.pccv);
+        daniel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dc = new Intent(Intent.ACTION_VIEW, Uri.parse(getResources().getString(R.string.plus_link)));
+                startActivity(dc);
+            }
+        });
         CardView aidan=(CardView)rv.findViewById(R.id.aidandev);
         aidan.setOnClickListener(new View.OnClickListener() {
             @Override

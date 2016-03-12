@@ -2,10 +2,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <string-array name="fullchangelog">
-        <item>@array/sj</item>
+        <item>@array/newversion</item>
+        <item>@array/versionone</item>
     </string-array>
 
-	<string-array name="sj">
+    <string-array name="newversion">
+        <item>Version 1.1</item>
+        <item>Bug Fixes</item>
+    </string-array>
+
+	<string-array name="versionone">
+        <item>Version 1.0</item>
         <item>Welcome to Supreme Wallpapers</item>
     </string-array>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="your_text">This is definitely a placeholder\n This is where your details go</string>
     <string name="your_gpluslink"></string>
     <!-- Image links -->
@@ -17,6 +17,8 @@
 https://github.com/square
     </string>
 
+    <string name="plus_link">https://github.com/plusCubed/insets-dispatcher</string>
+
     <!-- texts-->
     <string name="sjgplus_link">"https://plus.google.com/115059898284447995043"</string>
 <string name="sj_text">I made this dashboard with help of google and other sources mentioned below</string>
@@ -27,24 +29,24 @@ https://github.com/square
 <string name="aidan_texts" formatted="false">
     <![CDATA[Polar Dashboard some sources]]>\n
     <![CDATA[Material Dialogs]]>\n
-    <![CDATA[Assent]]>\n
-     <![CDATA[click card to view more]]>
+    <![CDATA[Assent]]>
 </string>
 
     <string name="jf_texts" formatted="false">
-    <![CDATA[Paperboard walls source]]>\n
-        <![CDATA[click card to view more]]>
+    <![CDATA[Paperboard walls source]]>
 </string>
 
     <string name="mike_texts" formatted="false">
-    <![CDATA[Android Iconics]]>\n
-    <![CDATA[click card to view more]]>
+    <![CDATA[Android Iconics]]>
 </string>
 
     <string name="square_texts" formatted="false">
     <![CDATA[Picasso]]>\n
-    <![CDATA[OkHttp]]>\n
-    <![CDATA[click card to view more]]>
+    <![CDATA[OkHttp]]>
 </string>
+
+    <string name="plus_cubed" formatted="false">
+<![CDATA[Insets Dispatcher]]>
+    </string>
 
 </resources>
