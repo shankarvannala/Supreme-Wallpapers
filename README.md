@@ -1,7 +1,7 @@
 # Supreme
 Supreme wallpapers dashboard.
 
-# Showcase
+# Screens
 <img alt="supreme_screens"
        src="https://www.dropbox.com/s/ae2e9pcyppiq3x9/PicsArt_02-28-10.19.57.png?dl=1"/>
        
@@ -13,12 +13,6 @@ Easy yet elegant dashboard out there.
 Very unique design and easy to use and bullshit craps.
 
 Feel free to use the dashboard and don't forget to credit and support the devs who put lot of their efforts to bring this into action.
-
-Try out the sample app [here](https://drive.google.com/file/d/0BwWQybffuHXNb296X2RxVldQaVE/view?usp=sharing).
-
-# Note 
-i am poor at writing , anyone intrested can help me in making a small guide for users to use this dash. Someone help me.
-Thanks
 
 # Special Thanks
 
